@@ -35,3 +35,27 @@ We would like you to enhance the existing project and see you complete the follo
 
 ## Assignment submission
 Thank you very much for your time to take this test. Please upload this complete solution in Github and send us the link to `bfs-sor-interview@paypal.com`.
+
+#################################################
+Test
+Post Method url : http://localhost:8080/v1/bfs/employees
+Payload:
+
+{
+    "id": 1,
+    "first_name": "Chitranjan",
+    "last_name": "Patel",
+    "date_of_birth": 387072000000,
+    "address": {
+        "line1": "Riverwood",
+        "line2": "Lake Cook Road",
+        "city": "Wheeling",
+        "state": "IL",
+        "country": "USA",
+        "zip_code": 496661
+    }
+}
+
+
+Get Method URl:
+http://localhost:8080/v1/bfs/employees/1
